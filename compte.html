@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compte</title>
+    <style>
+        section{
+            width: 50%;
+        }
+        h4{
+            text-align: center;
+            padding: 5px;
+            background-color: lightgray;
+        }
+        input{
+            margin: 10px;
+            margin-left: 25%;
+        }
+        .rouge{
+            color:red;
+            margin-left:3%;
+            padding: 2px;
+            
+        }
+        .bleu{
+            color: aliceblue;
+            background-color: rgb(38, 205, 205);
+            width: 18%;
+        }
+        .vert{
+            color: aliceblue;
+            background-color: rgb(10, 99, 10);
+            margin-left: 25%;
+            width: 10%;
+            
+            
+        }
+        .annul{
+            color: white;
+             margin-right: 5%;
+            background-color: rgb(187, 13, 13);  
+            
+
+        }
+        .fanta{
+            padding:2px;
+            background-color: lightgrey;
+        }
+        
+        .bebe{
+            padding: 2;
+            background-color: lightgrey;
+        }
+        .mbaye{
+            padding: 2;
+            background-color: lightgrey;
+        }
+        .coucou{
+            padding: 2;
+            background-color: lightgrey;
+        }
+        fieldset{
+            width: 50%;
+            
+        }
+        .Espace{
+            margin-left: 70%;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div>
+        <h4>Création de votre compte d'accés</h4>
+        <div class="rouge">
+        <ul>
+            <li>Tous les champs sont obligatoires</li>
+            <li>Le mot de passe doit contenir 8 caractères minimum avec un mélange de chiffres et de lettres</li>
+             </ul>
+             </div>
+            <fieldset>
+                <form>
+            <div>
+                <label>type d'identifiant:</label>
+                <select>
+                    <option value="Sélectionner le type d'identifiant">Sélectionner le type d'identifiant</option>
+                    <option value="Numero carte d'etudiant">Numero carte d'etudiant</option>
+                    <option value="CNI/passeport">CNI/passeport</option>
+                    <option value="INE">INE</option>
+                 </select>
+            </div>
+            <div         class="fanta">
+                <Label>Votre Identifiant:</Label>
+                <input class="Espace" type="text" placeholder="Votre identifiant">
+            </div>
+            <div>
+                <label>Nom:</label>
+                <input class="Espace" type="text" placeholder="nom de famille">
+            </div>
+            <div class="bebe">
+                <label>Prenoms:</label>
+                <input class="Espace" type="text" placeholder="Prenoms">
+            </div>
+            <div>
+                <label>Mot De Passe:</label>
+                <input class="Espace" type="text" placeholder="Crèer un mot de passe pour la connexion">
+            </div>
+            <div class="mbaye">
+                <label>Confirmation du mot de passe:</label>
+                <input class="Espace" type="text" placeholder="Confirmation du mot de passe">
+            </div>
+            <div>
+                <label>E-mail Personnel:</label>
+                <input class="Espace" type="text" placeholder="E-mail Personnel">
+            </div>
+            <div class="coucou">
+                <label>Captcha:</label>
+                <input class="Espace" type="text" placeholder="Saisissez les caractères ci-dessous">
+            </div>
+            <button class="bleu">Regénerer</button>
+         </form>
+         </fieldset>
+         <div>
+            <button class="vert">valider</button>
+            <button class="annul">annuler</button>
+         </div>
+
+          </div>
+            
+       
+    </div>
+</body>
+</html>
